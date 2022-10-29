@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    padding:6px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-memphis-playful-portfolio-pink-image_593418.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:rgb(184, 118, 129);
+    padding:0 20px;
+}
+.span{
+    text-decoration:none;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 20%;               
+    background-color:rgb(184, 118, 129);
+    height: 5px;
+  }
+main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.head{
+    color:rgb(98, 98, 157);
+    text-emphasis: filled double-circle rgb(98, 98, 157) ;
+}
+nav{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    gap:8vw;
+    overflow:hidden;
+   
+}
+nav a{
+    text-decoration:none;
+    color:white;
+}
+.about{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.myImg{
+    border:2px solid rgb(184, 118, 129);
+    border-radius: 80%;
+    width:350px;
+}
+.proj{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+.links{
+    border:1px solid rgb(184, 118, 129);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width:50px; */
+}
+img{
+    width:400px;
+}
+.ast{
+    color:red;
+}
+label,input{
+    display:block;
+    padding:12px;
+}
+input[type=text],input[type=email]{
+    width:98%;
+    border:1px solid black;
+    /* text-align: center; */
+}
+.head{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(184, 118, 129);
+    border:none;
+    padding:10px;
+    border-radius: 7px;
+    /* margin:5px auto 0; */
+    margin:0 auto;
+    text-align: center;
+    text-transform:uppercase;
+    color:white;
+    text-decoration: none;
+}
+form{
+    width:40%;
+}
+#contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+@media only screen and (max-width:760px){
+    #about{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .myImg{
+        width:200px;
+    }
+    nav{
+        display:flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        gap:3.2vw;
+        overflow:hidden;
+    }
+    .head{
+        font-size:16px;
+    }
+    nav a{
+        text-decoration:none;
+        color:white;
+        font-size:11.8px;
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color:rgb(184, 118, 129);
+        padding:0;
+    }
+    body{
+        padding:1px;
+    }
+}
